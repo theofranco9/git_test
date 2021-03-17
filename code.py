@@ -1,7 +1,3 @@
-from datetime import datetime
+from module import obtenir_temps
 
-print("Hello ! Il est {}.".format(datetime.now().strftime("%H:%M:%S")))
-; print("it worked")
-another change
-"change" 
-change with unix
+print(obtenir_temps())
